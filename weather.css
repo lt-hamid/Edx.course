@@ -1,0 +1,118 @@
+#nav-bar-div {
+    background-color:#eeeeee;
+	display:inline;
+	font-size: 18px;      
+}
+#ul-list li{
+	display: inline;
+	color: yellow;
+}
+#master-div{
+	background-color: teal;
+	height: 600px;
+	width: 1500px;
+	border: 2px solid blue;
+	padding: 30px;
+}
+
+li {
+
+	color: red;
+}
+
+
+
+
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+h1, h2 {
+	text-align: center;
+	color: grey;
+}
+.FormTable
+{
+	width:100%;
+}
+p.center {
+	text-align: center;
+	color: blue;
+}
+
+p.large {
+	font-size: 300%;
+}
+
+
+body {
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	line-height: 20px;
+	background-color: black;
+	font-family: arial;
+	font-style: Italic;
+	color: green;
+}
+
+.H1 {
+	color: green;
+	font-weight: bold;
+	font-style: normal;
+	text-align: left;
+}
+
+.SignInFormField {
+	font-size: 10pt;
+	color: grey;
+	font-weight: normal;
+	font-style: italic;
+	width: 200px;
+}
+.SignInFormTable {
+	color: black;
+}
+.H2 {
+	font-family: arial;
+	//font-size:15pt;
+	color: green;
+	font-weight: bold;
+	font-style: Normal;
+}
+
+.AircraftManufactuerersMarketShare {
+	font-weight: bold;
+	font-size: 25px;
+	font-style: italic;
+	width: 330px;
+	border: 1px solid black;
+	color: #0F0F0F;
+}
+
+P {
+	font-size: 15px;
+	width: 350px;
+	background-color: white;
+	border: 0px solid black;
+	text-align: center;
+}
+
+div {
+	width: 350px;
+	border: 1px solid black;
+	padding: 10px;
+	cursor: pointer;
+	background-color: yellow;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background: #ccc000
+}
+
+td {
+	border: 1px solid black;
+}
