@@ -1,38 +1,51 @@
 
 #nav-bar-div {
-    background-color:#ffffff;
 	display:inline;
-	font-size: 18px;      
+	font-size: 18px;  
+	
 }
 #ul-list li{
 	display: inline;
 	color: yellow;
-	
-	
 }
 #nav-bar{
-	background-color:teal;
-	height: 600px;
-	width: 1500px;
-	border: 2px solid blue;
+	
+	
+	border: 5px inset #04042c ;
 	padding: 30px;
-	text-align: center;
+	size: 50%;
+	
 }
 a {
-	color: magenta;
+	color: rgb(6, 2, 48);
+	color: rgb(146, 146, 150);
+	padding: left;
+	font-weight: thick;
+}
+body{
+	color: rgb(146, 146, 150);
+	background-color: rgb(9, 26, 49);
+	font-family:  Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
+	text-align: center;
 }
 
+h1 {
+	font-size: 50px;
+	text-size-adjust: 54;
+}
 footer {
-	font-size: 14px;  
+	font-size: 14px; 
+	font-weight: bold;
 	color: whitesmoke;
 	font-style: italic;  
-	font-family: Arial, Helvetica, sans-serif;
 	background-color: teal;
 	text-align: center;
-
+	color: black;
 }
 
-
+#email{
+	color: cyan;
+}
 
 
 
