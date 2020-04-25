@@ -1,4 +1,10 @@
-
+.table-weather{
+	border:1px solid burlywood;
+	margin-left:auto;
+	margin-right:auto;
+	border-collapse: collapse; column-span: 2;
+	width: 60%;  ;
+   }
 #nav-bar-div {
 	display:inline;
 	font-size: 18px;  
@@ -9,8 +15,6 @@
 	color: yellow;
 }
 #nav-bar{
-	
-	
 	border: 5px inset #04042c ;
 	padding: 30px;
 	size: 50%;
@@ -20,6 +24,7 @@ a {
 	color: rgb(146, 146, 150);
 	padding: left;
 	font-weight: thick;
+	font-size: small;
 }
 body{
 	color: rgb(146, 146, 150);
@@ -27,10 +32,48 @@ body{
 	font-family:  Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
 	text-align: center;
 }
+@media only screen and (max-width: 600px) {
+body{
+	font-size: 8px;
+	color:rgb(146, 146, 150);
+	background-color: rgb(9, 49, 16);
+	font-family:  Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
+	text-align: center;
+	}
+	#nav-bar-div {
+		display: list-item;
+		}
+	#ul-list li{
+			display: list-item;
+			text-align: left;
+			color:yellowgreen;
+		}
+	#nav-bar{
+		border: 5px inset red ;
+		padding: 30px;
+		size: 10%;
+		}
+	.master{
+			width:10%;
+			text-align: left;
+	   }
+	   head1{
+		   font-size: 20px;
+	   }
+	
+}
 
+
+span{
+	color:rgb(230, 104, 104);
+	font-weight: bold;
+	font-style: italic;
+}
+.master{
+	 width:30%;
+}
 h1 {
-	font-size: 50px;
-	text-size-adjust: 54;
+	font-size: 60px;
 }
 footer {
 	font-size: 14px; 
@@ -42,101 +85,15 @@ footer {
 	color: black;
 }
 
+.div-text{
+display: contents;
+text-align: justify;
+text-indent: -0em;
+text-justify: inter-word;
+font-size: small;
+}
+
 #email{
-	color: cyan;
+	color: whitesmoke;
 }
 
-
-
-
-
-/*
-h1, h2 {
-	text-align: center;
-	color: grey;
-}
-.FormTable
-{
-	width:100%;
-}
-p.center {
-	text-align: center;
-	color: blue;
-}
-
-p.large {
-	font-size: 300%;
-}
-
-
-body {
-	margin-top: 10px;
-	margin-left: 5px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	line-height: 20px;
-	background-color: black;
-	font-family: arial;
-	font-style: Italic;
-	color: green;
-}
-
-.H1 {
-	color: green;
-	font-weight: bold;
-	font-style: normal;
-	text-align: left;
-}
-
-.SignInFormField {
-	font-size: 10pt;
-	color: grey;
-	font-weight: normal;
-	font-style: italic;
-	width: 200px;
-}
-.SignInFormTable {
-	color: black;
-}
-.H2 {
-	font-family: arial;
-	//font-size:15pt;
-	color: green;
-	font-weight: bold;
-	font-style: Normal;
-}
-
-.AircraftManufactuerersMarketShare {
-	font-weight: bold;
-	font-size: 25px;
-	font-style: italic;
-	width: 330px;
-	border: 1px solid black;
-	color: #0F0F0F;
-}
-
-P {
-	font-size: 15px;
-	width: 350px;
-	background-color: white;
-	border: 0px solid black;
-	text-align: center;
-}
-
-div {
-	width: 350px;
-	border: 1px solid black;
-	padding: 10px;
-	cursor: pointer;
-	background-color: yellow;
-	text-align: center;
-}
-
-tr:nth-child(even) {
-	background: #ccc000
-}
-
-td {
-	border: 1px solid black;
-}
-*/
