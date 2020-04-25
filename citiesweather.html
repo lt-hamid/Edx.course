@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+           Weather 
+        </title>
+        <link rel="stylesheet" href="main.css">
+
+        <style>
+            th ,td{
+               font-size: 12px;
+               text-align: center;
+               border: 0px solid burlywood;
+               padding: 5px;
+            }
+
+            tr > th {
+              text-align: center;
+              font-size: 10px;
+            }
+
+            th{
+              font-weight: bold;
+              color: red;
+            }
+            tr:nth-child(even) {
+              background-color: rgb(10, 68, 253);
+              color: white;;
+            }
+            .symbol{
+              display: block;
+               width:75%;
+               text-align: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="nav-bar-div">
+            <div id="nav-bar">
+                <img class="master" src="images/weather.conditions.3D.jpg" >
+                <ul id="ul-list">
+                    <li>| <a href="index.html">Home</a></li>
+                    <li>| <a href="about.html">About</a></li>
+                    <li>| <a href="contact.html">Contact me</a></li>
+                    <li>| <a href="citiesweather.html">Locations latest</a></li>
+                </ul>
+                
+
+                <h3>Weather in some cities</h3>
+
+      <table class="table-weather" >
+  <tr>
+    <th>Country</th>
+    <th>City</th>
+    <th>Weather</th>
+    <th>Temp. Hi/Lo</th>
+  </tr>
+  <tr>
+    <td >G.B.</td>
+    <td>London</td>
+    <td style="width:30px" ><img class="symbol" src="images/sunny.jpg" ></td>
+    <td>72F/50F</td>
+  </tr>
+  <tr>
+    <td>G.B.</td>
+    <td>Manchester</td>
+    <td><img class="symbol" src="images/rainy.jpg" ></td>
+    <td>70F/52F</td>
+  </tr>
+  <tr>
+    <td>G.B.</td>
+    <td>Birminghan</td>
+    <td><img class="symbol" src="images/partly-cloudy.jpg"  ></td>
+    <td>75F/46F</td>
+  </tr>
+  <tr>
+  <td>France</td>
+    <td>Paris</td>
+    <td><img class="symbol" src="images/cloudy.jpg" ></td>
+    <td>72F/50F</td>
+  </tr>
+  <tr>
+    <td>France</td>
+    <td>Marseille</td>
+    <td><img class="symbol" src="images/sunny.jpg" ></td>
+    <td>88F/55F</td>
+  </tr>
+  <tr>
+    <td>France</td>
+    <td>Lyon</td>
+    <td><img class="symbol" src="images/showers-thundery.jpg"  ></td>
+    <td>81F/50F</td>
+  </tr>
+  
+  <tr>
+    <td>USA</td>
+    <td>Seattle</td>
+    <td><img class="symbol" src="images/snowy.jpg"  ></td>
+    <td>31F/22F</td>
+  </tr>
+  <tr>
+    <td>USA</td>
+    <td>Lax</td>
+    <td><img class="symbol" src="images/partly-cloudy.jpg"  ></td>
+    <td>65F/50F</td>
+  </tr>
+  <tr>
+    <td>USA</td>
+    <td>Chicago</td>
+    <td><img class="symbol" src="images/snowy.jpg"  ></td>
+    <td>25F/10F</td>
+  </tr>
+  <tr>
+    <td>USA</td>
+    <td>Miami</td>
+    <td><img class="symbol" src="images/partly-cloudy.jpg"  ></td>
+    <td>80F/60F</td>
+  </tr>
+  <tr>
+    <td>USA</td>
+    <td>Atlanta</td>
+    <td><img class="symbol" src="images/sunny.jpg"  ></td>
+    <td>65F/50F</td>
+  </tr>
+  <tr>
+    <td>USA</td>
+    <td>New York</td>
+    <td><img class="symbol" src="images/overcast.jpg"  ></td>
+    <td>325F/20F</td>
+  </tr>
+  
+</table>
+
+            </div>
+        </div>
+        
+    </body>
+    <footer>
+        <p>CS50's Web Programming with Python and JavaScript</p>
+        <p>Posted by: Hamid Ashkan ......
+        Contact information: <a id = "email" href="Lt_hamid@yahoo.com">Lt_hamid@yahoo.com</a>
+        </p>
+      </footer>
+</html>
