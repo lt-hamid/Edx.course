@@ -1,0 +1,129 @@
+$color: yellow;
+.table-weather{
+	border:1px solid burlywood;
+	margin-left:auto;
+	margin-right:auto;
+	border-collapse: collapse; column-span: 2;
+	width: 60%;  ;
+   }
+#nav-bar-div {
+	display:inline;
+	font-size: 18px;  
+	
+}
+#ul-list li{
+	display: inline;
+	color: $color;
+}
+#nav-bar{
+	border: 5px inset #04042c ;
+	padding: 30px;
+	size: 50%;
+}
+a {
+	color: rgb(6, 2, 48);
+	color: rgb(146, 146, 150);
+	padding: left;
+	font-weight: thick;
+	font-size: small;
+}
+a:hover {
+	color: $color;
+  }
+body{
+	color: rgb(146, 146, 150);
+	background-color: rgb(9, 26, 49);
+	font-family:  Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
+	text-align: center;
+	
+}
+@media only screen and (max-width: 600px) {
+body{
+	font-size: 8px;
+	color:rgb(146, 146, 150);
+	background-color: rgb(9, 49, 16);
+	font-family:  Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
+	text-align: center;
+	}
+	#nav-bar-div {
+		display: list-item;
+		}
+	#ul-list li{
+			display: list-item;
+			text-align: left;
+			color:$color;
+		}
+	#nav-bar{
+		border: 5px inset red ;
+		padding: 30px;
+		size: 10%;
+		}
+	.master{
+			width:10%;
+			text-align: left;
+	   }
+	   head1{
+		   font-size: 20px;
+	   }
+}
+.row > div {
+	padding: 20px;
+	background-color: teal;
+	border: 2px solid black;
+}	
+span{
+	color:rgb(230, 104, 104);
+	font-weight: bold;
+	font-style: italic;
+}
+.master{
+	 width:30%;
+}
+h1 {
+	font-size: 60px;
+}
+footer {
+	font-size: 14px; 
+	font-weight: bold;
+	color: whitesmoke;
+	font-style: italic;  
+	background-color: teal;
+	text-align: center;
+	color: black;
+}
+.div-text::selection{
+	color: red;
+	background-color: $color;
+}
+.div-text .para{
+display: contents;
+text-align: justify;
+text-indent: -0em;
+text-justify: inter-word;
+font-size: small;
+}
+.grid {
+	background-color: teal;
+	display: grid;
+	padding: 2px;
+	grid-column-gap: 20px;
+	grid-row-gap: 2px;
+	grid-template-columns: auto auto  ; /* both could be auto or both max-content or min-content */
+	grid-template-rows: max-content max-content;
+}
+	/*I Used the grid-template-rows property to define the size of the rows in a grid layout.
+	The first row in this grid is 20px high, and the second row is also 20px */
+
+
+.grid-item {
+	background-color: rgb(146, 146, 150);
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+	color: black;
+}
+#email{
+	color: whitesmoke;
+}
+

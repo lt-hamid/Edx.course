@@ -1,125 +1,252 @@
-.table-weather{
-	border:1px solid burlywood;
-	margin-left:auto;
-	margin-right:auto;
-	border-collapse: collapse; column-span: 2;
-	width: 60%;  ;
-   }
+.table-weather {
+  line-height: 2.0;
+  border: 1px solid burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  column-span: 2;
+  width: 60%; }
+
 #nav-bar-div {
-	display:inline;
-	font-size: 18px;  
-	
-}
-#ul-list li{
-	display: inline;
-	color: yellow;
-}
-#nav-bar{
-	border: 5px inset #04042c ;
-	padding: 30px;
-	size: 50%;
-}
+  display: inline;
+  font-size: 18px; }
+
+#ul-list li {
+  display: inline;
+  color: yellow; }
+
+#nav-bar {
+  border: 5px inset #04042c;
+  padding: 30px;
+  size: 50%; }
+
 a {
-	color: rgb(6, 2, 48);
-	color: rgb(146, 146, 150);
-	padding: left;
-	font-weight: thick;
-	font-size: small;
-}
+  color: #060230;
+  color: #929296;
+  padding: left;
+  font-weight: thick;
+  font-size: small; }
+
 a:hover {
-	color: yellow;
-  }
-body{
-	color: rgb(146, 146, 150);
-	background-color: rgb(9, 26, 49);
-	font-family:  Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
-	text-align: center;
-	
+  color: yellow; 
 }
+.weatherman{display: auto;}
+.img-hover:hover{
+  color: gold;  
+  size: auto;
+  display: swap ;
+  
+}
+body {
+  color: #929296;
+  background-color: #091a31;
+  font-family: Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
+  text-align: center; }
+
 @media only screen and (max-width: 600px) {
-body{
-	font-size: 8px;
-	color:rgb(146, 146, 150);
-	background-color: rgb(9, 49, 16);
-	font-family:  Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
-	text-align: center;
-	}
-	#nav-bar-div {
-		display: list-item;
-		}
-	#ul-list li{
-			display: list-item;
-			text-align: left;
-			color:yellowgreen;
-		}
-	#nav-bar{
-		border: 5px inset red ;
-		padding: 30px;
-		size: 10%;
-		}
-	.master{
-			width:10%;
-			text-align: left;
-	   }
-	   head1{
-		   font-size: 20px;
-	   }
-	
-}
+  body {
+    font-size: 8px;
+    color: #929296;
+    background-color: #093110;
+    font-family: Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
+    text-align: center; }
 
+  #nav-bar-div {
+    display: list-item; }
 
-span{
-	color:rgb(230, 104, 104);
-	font-weight: bold;
-	font-style: italic;
+  #ul-list li {
+    display: list-item;
+    text-align: left;
+    color: yellow; }
+
+  #nav-bar {
+    border: 5px inset red;
+    padding: 30px;
+    size: 10%; }
+
+  .master {
+    width: 10%;
+    text-align: left; }
+
+  head1 {
+    font-size: 17px; } }
+
+    span {
+  color: #e22121;
+  font-weight: thin;
+  font-style: normal; }
+.anchor{
+  color: red;
 }
-.master{
-	 width:30%;
-}
+.master {
+  width: 30%; }
+  .master-emoji {
+    width: 20%;
+  align-self:auto ; }
+  
+
 h1 {
-	font-size: 60px;
-}
+  font-size: 60px; }
+
 footer {
-	font-size: 14px; 
-	font-weight: bold;
-	color: whitesmoke;
-	font-style: italic;  
-	background-color: teal;
-	text-align: center;
-	color: black;
-}
-.div-text::selection{
-	color: red;
-	background-color: yellow;
-}
-.div-text{
-display: contents;
-text-align: justify;
-text-indent: -0em;
-text-justify: inter-word;
-font-size: small;
-}
+  font-size: 14px;
+  font-weight: bold;
+  color: whitesmoke;
+  font-style: italic;
+  background-color: teal;
+  text-align: center;
+  color: black; }
+
+.div-text::selection {
+  color: red;
+  background-color: yellow; }
+
+.div-text {
+  display: contents;
+  text-align: justify;
+  text-indent: -0em;
+  text-justify: inter-word;
+  font-size: small; }
+
 .grid {
-	background-color: teal;
-	display: grid;
-	padding: 2px;
-	grid-column-gap: 20px;
-	grid-row-gap: 2px;
-	grid-template-columns: 200px 200px ; /* both could be auto*/
-	grid-template-rows: 20px 20px;
-}
-	/*I Used the grid-template-rows property to define the size of the rows in a grid layout.
-	The first row in this grid is 20px high, and the second row is also 20px */
+  background-color: teal;
+  display: grid;
+  padding: 2px;
+  grid-column-gap: 20px;
+  grid-row-gap: 2px;
+  grid-template-columns: auto auto;
+  /* both could be auto or both max-content or min-content */
+  grid-template-rows: max-content max-content; }
 
-
+/*I Used the grid-template-rows property to define the size of the rows in a grid layout.
+The first row in this grid is 20px high, and the second row is also 20px */
 .grid-item {
-	background-color: rgb(146, 146, 150);
-	font-size: 15px;
-	padding: 5px;
-	text-align: center;
-	color: black;
+  background-color: #929296;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  color: black; }
+
+#email {
+  color: whitesmoke; }
+  .row > div {
+    padding: 5px;
+    background-color: teal;
+    border: 2px solid maroon;
+    color: blanchedalmond;
 }
-#email{
-	color: whitesmoke;
+.row1 > div {
+  padding: 5px;
+  
+  border: 2px solid maroon;
+  color: blanchedalmond;
 }
 
+.para{
+  line-height: 1.0;
+  text-align: justify;
+  font-size: smaller;
+}
+
+.fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+.fade-out {
+  animation: fadeOut ease 8s;
+  -webkit-animation: fadeOut ease 8s;
+  -moz-animation: fadeOut ease 8s;
+  -o-animation: fadeOut ease 8s;
+  -ms-animation: fadeOut ease 8s;
+}
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+}
+/*# sourceMappingURL=main.css.map */
