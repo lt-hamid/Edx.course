@@ -26,11 +26,15 @@ a {
 	font-weight: thick;
 	font-size: small;
 }
+a:hover {
+	color: yellow;
+  }
 body{
 	color: rgb(146, 146, 150);
 	background-color: rgb(9, 26, 49);
 	font-family:  Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
 	text-align: center;
+	
 }
 @media only screen and (max-width: 600px) {
 body{
@@ -84,7 +88,10 @@ footer {
 	text-align: center;
 	color: black;
 }
-
+.div-text::selection{
+	color: red;
+	background-color: yellow;
+}
 .div-text{
 display: contents;
 text-align: justify;
@@ -92,7 +99,26 @@ text-indent: -0em;
 text-justify: inter-word;
 font-size: small;
 }
+.grid {
+	background-color: teal;
+	display: grid;
+	padding: 2px;
+	grid-column-gap: 20px;
+	grid-row-gap: 2px;
+	grid-template-columns: 200px 200px ; /* both could be auto*/
+	grid-template-rows: 20px 20px;
+}
+	/*I Used the grid-template-rows property to define the size of the rows in a grid layout.
+	The first row in this grid is 20px high, and the second row is also 20px */
 
+
+.grid-item {
+	background-color: rgb(146, 146, 150);
+	font-size: 15px;
+	padding: 5px;
+	text-align: center;
+	color: black;
+}
 #email{
 	color: whitesmoke;
 }
