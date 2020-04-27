@@ -1,4 +1,3 @@
-/* master background-color */
 .table-weather {
   line-height: 2.0;
   border: 1px solid burlywood;
@@ -29,16 +28,15 @@ a {
   font-size: small; }
 
 a:hover {
-  color: yellow; }
-
-.weatherman {
-  display: auto; }
-
-.img-hover:hover {
-  color: gold;
+  color: yellow; 
+}
+.weatherman{display: auto;}
+.img-hover:hover{
+  color: gold;  
   size: auto;
-  display: swap; }
-
+  display: swap ;
+  
+}
 body {
   color: #929296;
   background-color: #091a31;
@@ -72,20 +70,20 @@ body {
 
   head1 {
     font-size: 17px; } }
-span {
+
+    span {
   color: #e22121;
   font-weight: thin;
   font-style: normal; }
-
-.anchor {
-  color: red; }
-
+.anchor{
+  color: red;
+}
 .master {
   width: 30%; }
-
-.master-emoji {
-  width: 20%;
-  align-self: auto; }
+  .master-emoji {
+    width: 20%;
+  align-self:auto ; }
+  
 
 h1 {
   font-size: 60px; }
@@ -132,24 +130,24 @@ The first row in this grid is 20px high, and the second row is also 20px */
 
 #email {
   color: whitesmoke; }
-
-.row > div {
-  padding: 5px;
-  background-color: teal;
-  border: 2px solid maroon;
-  color: blanchedalmond; }
-
+  .row > div {
+    padding: 5px;
+    background-color: teal;
+    border: 2px solid maroon;
+    color: blanchedalmond;
+}
 .row1 > div {
   padding: 5px;
+  
   border: 2px solid maroon;
-  color: blanchedalmond; }
+  color: blanchedalmond;
+}
 
-.para {
-  line-height: 1.0;
-  /* line  adjustment very percisely */
+.para{
+  line-height: 1.0; /* line  adjustment very percisely */
   text-align: justify;
-  font-size: smaller; }
+  font-size: smaller;
+}
 
-/*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=main.css.map */

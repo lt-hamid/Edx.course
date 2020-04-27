@@ -1,4 +1,7 @@
-/* master background-color */
+$for-color : yellow;
+$bak-color : #091a31; /* master background-color */
+$nav-color : #929296;
+
 .table-weather {
   line-height: 2.0;
   border: 1px solid burlywood;
@@ -14,7 +17,7 @@
 
 #ul-list li {
   display: inline;
-  color: yellow; }
+  color: $for-color; }
 
 #nav-bar {
   border: 5px inset #04042c;
@@ -23,32 +26,34 @@
 
 a {
   color: #060230;
-  color: #929296;
+  color: $nav-color 
+;
   padding: left;
   font-weight: thick;
   font-size: small; }
 
 a:hover {
-  color: yellow; }
-
-.weatherman {
-  display: auto; }
-
-.img-hover:hover {
-  color: gold;
+  color: $for-color; 
+}
+.weatherman{display: auto;}
+.img-hover:hover{
+  color: gold;  
   size: auto;
-  display: swap; }
-
+  display: swap ;
+  
+}
 body {
-  color: #929296;
-  background-color: #091a31;
+  color: $nav-color 
+;
+  background-color: $bak-color;
   font-family: Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
   text-align: center; }
 
 @media only screen and (max-width: 600px) {
   body {
     font-size: 8px;
-    color: #929296;
+    color: $nav-color 
+;
     background-color: #093110;
     font-family: Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
     text-align: center; }
@@ -59,7 +64,7 @@ body {
   #ul-list li {
     display: list-item;
     text-align: left;
-    color: yellow; }
+    color: $for-color; }
 
   #nav-bar {
     border: 5px inset red;
@@ -72,20 +77,20 @@ body {
 
   head1 {
     font-size: 17px; } }
-span {
+
+    span {
   color: #e22121;
   font-weight: thin;
   font-style: normal; }
-
-.anchor {
-  color: red; }
-
+.anchor{
+  color: red;
+}
 .master {
   width: 30%; }
-
-.master-emoji {
-  width: 20%;
-  align-self: auto; }
+  .master-emoji {
+    width: 20%;
+  align-self:auto ; }
+  
 
 h1 {
   font-size: 60px; }
@@ -101,7 +106,7 @@ footer {
 
 .div-text::selection {
   color: red;
-  background-color: yellow; }
+  background-color: $for-color; }
 
 .div-text {
   display: contents;
@@ -123,7 +128,8 @@ footer {
 /*I Used the grid-template-rows property to define the size of the rows in a grid layout.
 The first row in this grid is 20px high, and the second row is also 20px */
 .grid-item {
-  background-color: #929296;
+  background-color: $nav-color 
+;
   font-size: 12px;
   font-weight: bold;
   padding: 5px;
@@ -132,24 +138,24 @@ The first row in this grid is 20px high, and the second row is also 20px */
 
 #email {
   color: whitesmoke; }
-
-.row > div {
-  padding: 5px;
-  background-color: teal;
-  border: 2px solid maroon;
-  color: blanchedalmond; }
-
+  .row > div {
+    padding: 5px;
+    background-color: teal;
+    border: 2px solid maroon;
+    color: blanchedalmond;
+}
 .row1 > div {
   padding: 5px;
+  
   border: 2px solid maroon;
-  color: blanchedalmond; }
+  color: blanchedalmond;
+}
 
-.para {
-  line-height: 1.0;
-  /* line  adjustment very percisely */
+.para{
+  line-height: 1.0; /* line  adjustment very percisely */
   text-align: justify;
-  font-size: smaller; }
+  font-size: smaller;
+}
 
-/*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=main.css.map */
