@@ -151,16 +151,18 @@ The first row in this grid is 20px high, and the second row is also 20px */
   border: 2px solid maroon;
   color: blanchedalmond; }
 
-textarea {
-  background-color: #091a31;
-  color: yellow; }
-
+/*
+textarea{
+  background-color: $bak-color;
+  color: $for-color;
+  
+}
 .inline-email {
-  color: #8bca0e; }
-
+  color: rgb(139, 202, 14);
+}
 form > p {
-  color: #8bca0e; }
-
+  color: rgb(139, 202, 14);
+}*/
 .row1 > div {
   padding: 5px;
   border: 2px solid maroon;
