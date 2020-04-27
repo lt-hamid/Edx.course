@@ -140,9 +140,9 @@ The first row in this grid is 20px high, and the second row is also 20px */
   font-weight: bold;
   padding: 5px;
   text-align: center;
-  color: #660707; }
+  color: black; }
 
-#email {
+.email {
   color: #7c0909; }
 
 .row > div {
@@ -150,6 +150,16 @@ The first row in this grid is 20px high, and the second row is also 20px */
   background-color: teal;
   border: 2px solid maroon;
   color: blanchedalmond; }
+
+textarea {
+  background-color: #091a31;
+  color: yellow; }
+
+.inline-email {
+  color: #8bca0e; }
+
+form > p {
+  color: #8bca0e; }
 
 .row1 > div {
   padding: 5px;
