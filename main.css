@@ -17,7 +17,6 @@
   color: yellow; }
 
 #nav-bar {
-  border: 5px inset #04042c;
   padding: 30px;
   size: 50%; }
 
@@ -34,16 +33,29 @@ a:hover {
 .weatherman {
   display: auto; }
 
-.img-hover:hover {
+.img-hover {
   color: gold;
   size: auto;
   display: swap; }
+
+.current-page {
+  font-weight: bold;
+  font-size: large;
+  color: lighten;
+  text-decoration: underline overline;
+  text-decoration-style: solid; }
 
 body {
   color: #929296;
   background-color: #091a31;
   font-family: Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
   text-align: center; }
+
+.para {
+  line-height: 1.0;
+  /* line  adjustment very percisely */
+  text-align: justify;
+  font-size: 16px; }
 
 @media only screen and (max-width: 600px) {
   body {
@@ -62,16 +74,16 @@ body {
     color: yellow; }
 
   #nav-bar {
-    border: 5px inset red;
+    border: 5px inset #8970da;
     padding: 30px;
     size: 10%; }
 
   .master {
-    width: 10%;
-    text-align: left; }
+    width: 100%; }
 
   head1 {
     font-size: 17px; } }
+/* end of media: mobile responsive*/
 span {
   color: #e22121;
   font-weight: thin;
@@ -81,7 +93,7 @@ span {
   color: red; }
 
 .master {
-  width: 30%; }
+  width: 50%; }
 
 .master-emoji {
   width: 20%;
@@ -144,11 +156,28 @@ The first row in this grid is 20px high, and the second row is also 20px */
   border: 2px solid maroon;
   color: blanchedalmond; }
 
-.para {
-  line-height: 1.0;
-  /* line  adjustment very percisely */
-  text-align: justify;
-  font-size: smaller; }
+th, td {
+  font-size: 12px;
+  text-align: center;
+  border: 0px solid burlywood;
+  padding: 5px; }
+
+tr > th {
+  text-align: center;
+  font-size: 10px; }
+
+th {
+  font-weight: bold;
+  color: red; }
+
+tr:nth-child(even) {
+  background-color: #0a44fd;
+  color: white; }
+
+.symbol {
+  display: block;
+  width: 75%;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
 

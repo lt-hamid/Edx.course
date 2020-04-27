@@ -20,7 +20,7 @@ $nav-color : #929296;
   color: $for-color; }
 
 #nav-bar {
-  border: 5px inset #04042c;
+ 
   padding: 30px;
   size: 50%; }
 
@@ -35,29 +35,41 @@ a {
 a:hover {
   color: $for-color; 
 }
-.weatherman{display: auto;}
-.img-hover:hover{
+.weatherman{display: auto;
+}
+
+.img-hover{
   color: gold;  
   size: auto;
   display: swap ;
-  
 }
+.current-page{
+  font-weight: bold;
+  font-size: large;
+  color: lighten;
+  text-decoration: underline overline;
+  text-decoration-style: solid;
+} 
 body {
-  color: $nav-color 
-;
+  color: $nav-color ;
   background-color: $bak-color;
   font-family: Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
-  text-align: center; }
-
+  text-align: center; 
+}
+  .para{
+    line-height: 1.0; /* line  adjustment very percisely */
+    text-align: justify;
+    font-size: 16px;
+  }
 @media only screen and (max-width: 600px) {
   body {
     font-size: 8px;
-    color: $nav-color 
-;
+    color: $nav-color;
     background-color: #093110;
     font-family: Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
     text-align: center; }
 
+    
   #nav-bar-div {
     display: list-item; }
 
@@ -67,16 +79,16 @@ body {
     color: $for-color; }
 
   #nav-bar {
-    border: 5px inset red;
+    border: 5px inset rgb(137, 112, 218);
     padding: 30px;
     size: 10%; }
 
   .master {
-    width: 10%;
-    text-align: left; }
+    width: 100%;
+    }
 
   head1 {
-    font-size: 17px; } }
+    font-size: 17px; } } /* end of media: mobile responsive*/
 
     span {
   color: #e22121;
@@ -86,7 +98,7 @@ body {
   color: red;
 }
 .master {
-  width: 30%; }
+  width: 50%; }
   .master-emoji {
     width: 20%;
   align-self:auto ; }
@@ -128,13 +140,13 @@ footer {
 /*I Used the grid-template-rows property to define the size of the rows in a grid layout.
 The first row in this grid is 20px high, and the second row is also 20px */
 .grid-item {
-  background-color: $nav-color 
-;
+  background-color: $nav-color ;
   font-size: 12px;
   font-weight: bold;
   padding: 5px;
   text-align: center;
-  color: black; }
+  color: black; 
+}
 
 #email {
   color: whitesmoke; }
@@ -151,11 +163,34 @@ The first row in this grid is 20px high, and the second row is also 20px */
   color: blanchedalmond;
 }
 
-.para{
-  line-height: 1.0; /* line  adjustment very percisely */
-  text-align: justify;
-  font-size: smaller;
+
+
+th ,td{
+  font-size: 12px;
+  text-align: center;
+  border: 0px solid burlywood;
+  padding: 5px;
 }
 
+tr > th {
+  text-align: center;
+  font-size: 10px;
+}
+
+th{
+  font-weight: bold;
+  color: red;
+}
+tr:nth-child(even) {
+  background-color: rgb(10, 68, 253);
+  color: white;;
+}
+.symbol{
+  display: block;
+  width:75%;
+  text-align: center;
+}
+
+       
 
 /*# sourceMappingURL=main.css.map */
