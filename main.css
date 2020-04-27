@@ -1,3 +1,4 @@
+/* master background-color */
 .table-weather {
   line-height: 2.0;
   border: 1px solid burlywood;
@@ -28,15 +29,16 @@ a {
   font-size: small; }
 
 a:hover {
-  color: yellow; 
-}
-.weatherman{display: auto;}
-.img-hover:hover{
-  color: gold;  
+  color: yellow; }
+
+.weatherman {
+  display: auto; }
+
+.img-hover:hover {
+  color: gold;
   size: auto;
-  display: swap ;
-  
-}
+  display: swap; }
+
 body {
   color: #929296;
   background-color: #091a31;
@@ -70,20 +72,20 @@ body {
 
   head1 {
     font-size: 17px; } }
-
-    span {
+span {
   color: #e22121;
   font-weight: thin;
   font-style: normal; }
-.anchor{
-  color: red;
-}
+
+.anchor {
+  color: red; }
+
 .master {
   width: 30%; }
-  .master-emoji {
-    width: 20%;
-  align-self:auto ; }
-  
+
+.master-emoji {
+  width: 20%;
+  align-self: auto; }
 
 h1 {
   font-size: 60px; }
@@ -130,123 +132,24 @@ The first row in this grid is 20px high, and the second row is also 20px */
 
 #email {
   color: whitesmoke; }
-  .row > div {
-    padding: 5px;
-    background-color: teal;
-    border: 2px solid maroon;
-    color: blanchedalmond;
-}
+
+.row > div {
+  padding: 5px;
+  background-color: teal;
+  border: 2px solid maroon;
+  color: blanchedalmond; }
+
 .row1 > div {
   padding: 5px;
-  
   border: 2px solid maroon;
-  color: blanchedalmond;
-}
+  color: blanchedalmond; }
 
-.para{
+.para {
   line-height: 1.0;
+  /* line  adjustment very percisely */
   text-align: justify;
-  font-size: smaller;
-}
+  font-size: smaller; }
 
-.fade-in {
-  animation: fadeIn ease 10s;
-  -webkit-animation: fadeIn ease 10s;
-  -moz-animation: fadeIn ease 10s;
-  -o-animation: fadeIn ease 10s;
-  -ms-animation: fadeIn ease 10s;
-}
-@keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
+/*# sourceMappingURL=main.css.map */
 
-@-moz-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-}
-.fade-out {
-  animation: fadeOut ease 8s;
-  -webkit-animation: fadeOut ease 8s;
-  -moz-animation: fadeOut ease 8s;
-  -o-animation: fadeOut ease 8s;
-  -ms-animation: fadeOut ease 8s;
-}
-@keyframes fadeOut {
-  0% {
-    opacity:1;
-  }
-  100% {
-    opacity:0;
-  }
-}
-
-@-moz-keyframes fadeOut {
-  0% {
-    opacity:1;
-  }
-  100% {
-    opacity:0;
-  }
-}
-
-@-webkit-keyframes fadeOut {
-  0% {
-    opacity:1;
-  }
-  100% {
-    opacity:0;
-  }
-}
-
-@-o-keyframes fadeOut {
-  0% {
-    opacity:1;
-  }
-  100% {
-    opacity:0;
-  }
-}
-
-@-ms-keyframes fadeOut {
-  0% {
-    opacity:1;
-  }
-  100% {
-    opacity:0;
-}
 /*# sourceMappingURL=main.css.map */

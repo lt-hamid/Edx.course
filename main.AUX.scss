@@ -1,7 +1,3 @@
-$for-color : yellow;
-$bak-color : #091a31; /* master background-color */
-$nav-color : #929296;
-
 .table-weather {
   line-height: 2.0;
   border: 1px solid burlywood;
@@ -17,7 +13,7 @@ $nav-color : #929296;
 
 #ul-list li {
   display: inline;
-  color: $for-color; }
+  color: yellow; }
 
 #nav-bar {
   border: 5px inset #04042c;
@@ -26,14 +22,13 @@ $nav-color : #929296;
 
 a {
   color: #060230;
-  color: $nav-color 
-;
+  color: #929296;
   padding: left;
   font-weight: thick;
   font-size: small; }
 
 a:hover {
-  color: $for-color; 
+  color: yellow; 
 }
 .weatherman{display: auto;}
 .img-hover:hover{
@@ -43,17 +38,15 @@ a:hover {
   
 }
 body {
-  color: $nav-color 
-;
-  background-color: $bak-color;
+  color: #929296;
+  background-color: #091a31;
   font-family: Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
   text-align: center; }
 
 @media only screen and (max-width: 600px) {
   body {
     font-size: 8px;
-    color: $nav-color 
-;
+    color: #929296;
     background-color: #093110;
     font-family: Arial, 'Arial Narrow',sans-serif Helvetica, sans-serif;
     text-align: center; }
@@ -64,7 +57,7 @@ body {
   #ul-list li {
     display: list-item;
     text-align: left;
-    color: $for-color; }
+    color: yellow; }
 
   #nav-bar {
     border: 5px inset red;
@@ -106,7 +99,7 @@ footer {
 
 .div-text::selection {
   color: red;
-  background-color: $for-color; }
+  background-color: yellow; }
 
 .div-text {
   display: contents;
@@ -128,8 +121,7 @@ footer {
 /*I Used the grid-template-rows property to define the size of the rows in a grid layout.
 The first row in this grid is 20px high, and the second row is also 20px */
 .grid-item {
-  background-color: $nav-color 
-;
+  background-color: #929296;
   font-size: 12px;
   font-weight: bold;
   padding: 5px;
