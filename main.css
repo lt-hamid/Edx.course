@@ -140,10 +140,10 @@ The first row in this grid is 20px high, and the second row is also 20px */
   font-weight: bold;
   padding: 5px;
   text-align: center;
-  color: black; }
+  color: #660707; }
 
 #email {
-  color: whitesmoke; }
+  color: #7c0909; }
 
 .row > div {
   padding: 5px;
